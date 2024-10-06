@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina 2</title>
+    <title>Ex1 - Pg2</title>
 </head>
 <body>
-    <p>Enregistra nombre:</p>
+    <h1>NOMBRE ENREGISTRAT</h1>
     <?php
         session_start();
         $_SESSION["ocult"] = $_POST["ocult"];

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina3</title>
+    <title>Ex2 - Pg3</title>
 </head>
 <body>
-    <p>Coincidencies:</p>
+    <h1></h1>
     <a href="ex42pagina1.php">Retorna a la pàgina 1</a>
     <?php
         session_start();
@@ -18,10 +18,10 @@
         $common_words = array_intersect($array1, $array2);
 
         if (empty($common_words)) {
-            echo "No hi ha cap coincidència";
+            echo "<p>No hi ha cap coincidència.</p>";
         } else {
             foreach ($common_words as $word) {
-                echo "La paraula $word està a les dues frases<br>";
+                echo "<p>La paraula '$word' està a les dues frases.</p>";
             }
         }
 
